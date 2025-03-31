@@ -7,10 +7,20 @@ import Footer from './components/Footer'
 function App() {
 
   useEffect(() => {
+
     const metaThemeColor = document.querySelector("meta[name=theme-color]");
     if (metaThemeColor) {
-      metaThemeColor.setAttribute("content", "rgba(0,0,0,0)");
+      metaThemeColor.setAttribute("content", "#00000000");
     }
+
+    const hideNavBar = () => {
+      window.scrollTo(0, 1);
+    };
+
+    hideNavBar();
+    window.addEventListener("resize", hideNavBar);
+
+    return () => window.removeEventListener("resize", hideNavBar);
   }, []);
 
   return (
