@@ -16,7 +16,7 @@ const Footer = () => {
                 </div>
                 <div className='flex justify-center gap-5'>
                     <div><a href="https://www.instagram.com/_.pinkec._.pvt._457/"><img className='h-12 w-12' src="https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000" alt="Instagram" /></a></div>
-                    <div><a href="https://www.x.com/_pinkec_pvt_457/"><img className='h-10 w-10 mt-1' src="https://img.icons8.com/?size=100&id=phOKFKYpe00C&format=png&color=000000" alt="Instagram" /></a></div>
+                    <div><a href="https://www.x.com/_pinkec_pvt_457/"><img className='h-10 w-10 mt-1 dark:invert' src="https://img.icons8.com/?size=100&id=phOKFKYpe00C&format=png&color=000000" alt="Instagram" /></a></div>
                 </div>
             </footer>
         </div>
