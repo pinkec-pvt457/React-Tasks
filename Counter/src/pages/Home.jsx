@@ -25,12 +25,20 @@ const Home = () => {
             <h1 className='pb-3 md:pb-9 font-sans'>
                 {count}
             </h1>
-            <button
-                onClick={() => setCount(count + 1)}
-                className='pr-5 md:pr-10'
-            >
-                <img className='dark:invert size-20 md:size-32' src={Plus} alt="Plus Image" />
-            </button>
+            {
+                count == 100 ? (
+                    <div className='pl-5 md:pl-10'>
+                        <div className='size-20 md:size-32'></div>
+                    </div>
+                ) : (
+                    <button
+                        onClick={() => setCount(count + 1)}
+                        className='pr-5 md:pr-10'
+                    >
+                        <img className='dark:invert size-20 md:size-32' src={Plus} alt="Plus Image" />
+                    </button>
+                )
+            }
         </div>
     )
 }
