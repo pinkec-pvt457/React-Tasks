@@ -7,7 +7,7 @@ const Counter = () => {
     const [count, setCount] = useState(0);
 
     return (
-        <div className='h-full w-full flex justify-between items-center font-serif text-[100px] md:text-[400px] bg-gradient-to-r from-[#E684AE] via-[#79CBCA] to-[#77A1D3] dark:bg-gradient-to-l dark:from-[#4c2335e0] dark:via-[#047c7c72] dark:to-[#19385e] text-black dark:text-white'>
+        <div className='h-full w-full min-h-[550px] flex justify-between items-center font-serif text-[100px] md:text-[400px] bg-gradient-to-r from-[#E684AE] via-[#79CBCA] to-[#77A1D3] dark:bg-gradient-to-l dark:from-[#4c2335e0] dark:via-[#047c7c72] dark:to-[#19385e] text-black dark:text-white'>
             {
                 count == 0 ? (
                     <div className='pl-5 md:pl-10'>

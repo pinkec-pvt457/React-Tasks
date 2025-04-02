@@ -7,7 +7,7 @@ const Home = () => {
     const [count, setCount] = useState(0);
 
     return (
-        <div className='h-full w-full flex justify-between items-center font-serif text-[100px] md:text-[400px] text-black dark:text-white'>
+        <div className='h-full w-full min-h-[550px] flex justify-between items-center font-serif text-[100px] md:text-[400px] text-black dark:text-white'>
             {
                 count == 0 ? (
                     <div className='pl-5 md:pl-10'>

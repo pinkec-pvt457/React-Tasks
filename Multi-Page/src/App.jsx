@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <div className='h-screen w-screen min-h-screen overflow-hidden flex flex-col justify-between bg-white dark:bg-black transition-all duration-300'>
+      <div className='h-screen w-screen min-h-screen overflow-x-hidden overflow-y-auto flex flex-col justify-between bg-white dark:bg-black transition-all duration-300'>
         <BrowserRouter>
           <Navbar dark={darkMode} setDark={setDarkMode}/>
           <Routes>

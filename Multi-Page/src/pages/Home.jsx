@@ -46,7 +46,7 @@ const Home = () => {
   }, [index, isDeleting, texts, textIndex, speed, eraseSpeed, pauseTime]);
 
   return (
-    <div className='flex flex-col md:flex-row h-full w-full bg-gradient-to-r from-[#E684AE] via-[#79CBCA] to-[#77A1D3] dark:bg-gradient-to-l dark:from-[#4c2335e0] dark:via-[#047c7c72] dark:to-[#19385e] text-black dark:text-gray-300 transition-all duration-300'>
+    <div className='flex flex-col min-h-[550px] md:flex-row h-full w-full bg-gradient-to-r from-[#E684AE] via-[#79CBCA] to-[#77A1D3] dark:bg-gradient-to-l dark:from-[#4c2335e0] dark:via-[#047c7c72] dark:to-[#19385e] text-black dark:text-gray-300 transition-all duration-300'>
       <div className='w-full md:w-[50%] text-4xl lg:text-7xl font-serif h-[40%] md:h-full pl-12 pt-12 md:pl-20 md:pt-20'>
         <span className='block'>Hey</span>
         <span className='block'>This is</span>
